@@ -837,7 +837,7 @@ async function setContext(app, context) {
   // If context not defined, create it
   if (!app.context) {
     app.context = {
-      isStatic: false,
+      isStatic: true,
       isDev: false,
       isHMR: false,
       app,
@@ -847,13 +847,9 @@ async function setContext(app, context) {
       env: {}
     }; // Only set once
 
-    if ( true && context.req) {
-      app.context.req = context.req;
-    }
+    if (false) {}
 
-    if ( true && context.res) {
-      app.context.res = context.res;
-    }
+    if (false) {}
 
     if (context.ssrContext) {
       app.context.ssrContext = context.ssrContext;
@@ -1468,7 +1464,7 @@ if (false) {}
 
 
 
-const _7fe0f930 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 27))); // TODO: remove in Nuxt 3
+const _7211901c = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 1).then(__webpack_require__.bind(null, 27))); // TODO: remove in Nuxt 3
 
 
 const emptyFn = () => {};
@@ -1488,7 +1484,7 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/",
-    component: _7fe0f930,
+    component: _7211901c,
     name: "index"
   }],
   fallback: false
@@ -1664,7 +1660,7 @@ var nuxt_error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "a8427946"
+  "612c2753"
   
 )
 
@@ -1968,7 +1964,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "b4db455e"
+  "3d169bc7"
   
 )
 
@@ -1999,7 +1995,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   default_injectStyles,
   null,
-  "46d4a4f2"
+  "04606c30"
   
 )
 
@@ -2083,6 +2079,10 @@ const layouts = {
 
     isFetching() {
       return this.nbFetching > 0;
+    },
+
+    isPreview() {
+      return Boolean(this.$options.previewData);
     }
 
   },
@@ -2723,7 +2723,9 @@ const createNext = ssrContext => opts => {
     routePath: ''
   }; // Remove query from url is static target
 
-  if (false) {} // Public runtime config
+  if ( true && ssrContext.url) {
+    ssrContext.url = ssrContext.url.split('?')[0];
+  } // Public runtime config
 
 
   ssrContext.nuxt.config = ssrContext.runtimeConfig.public; // Create the app definition and the instance (created for each request)

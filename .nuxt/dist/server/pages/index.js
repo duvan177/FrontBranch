@@ -58,18 +58,18 @@ var staticRenderFns = []
 
 // CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=d9d25d8c&
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/CardFormComponent.vue?vue&type=template&id=28e054ab&
-var CardFormComponentvue_type_template_id_28e054ab_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<form id=\"formVisitor\">","</form>",[_vm._ssrNode("<div class=\"form-group mt-2\">","</div>",[_vm._ssrNode("<label for=\"state\" class=\"text-black text-form\">Departamento*</label> "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.state),expression:"state"}],staticClass:"form-control",attrs:{"name":"state","id":"state"},on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.state=$event.target.multiple ? $$selectedVal : $$selectedVal[0]},_vm.SelectSite]}},[_c('option',{attrs:{"selected":""}},[_vm._v("Selecciona departamento")]),_vm._v(" "),_vm._l((_vm.states),function(site){return _c('option',{key:site,domProps:{"textContent":_vm._s(site)}})})],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"form-group\">","</div>",[_vm._ssrNode("<label for=\"city\" class=\"text-black text-form\">Cuidad*</label> "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.city),expression:"city"}],staticClass:"form-control",attrs:{"disabled":_vm.status,"name":"city","id":"city"},on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.city=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},_vm._l((_vm.citys),function(city,index){return _c('option',{key:index,domProps:{"textContent":_vm._s(city)}})}),0)],2),_vm._ssrNode(" <div class=\"form-group\"><label for=\"name\" class=\"text-black text-form\">Nombre*</label> <input type=\"text\" name=\"name\" id=\"name\""+(_vm._ssrAttr("value",(_vm.name)))+" class=\"form-control\"></div> <div class=\"form-group\"><label for=\"email\" class=\"text-black text-form\">Correo*</label> <input type=\"email\" id=\"email\" name=\"email\""+(_vm._ssrAttr("value",(_vm.email)))+" class=\"form-control\"></div> <div class=\"form-group d-flex justify-content-center\"><button"+(_vm._ssrAttr("disabled",!_vm.res))+" type=\"submit\" class=\"btn rounded-pill text-white mt-3 w-50\" style=\"background: #e03b65; font-weight: bold; height: 50px\"><span"+(_vm._ssrStyle(null,null, { display: (_vm.res) ? '' : 'none' }))+">ENVIAR</span> <div role=\"status\" class=\"spinner-border text-light\""+(_vm._ssrStyle(null,null, { display: (!_vm.res) ? '' : 'none' }))+"><span class=\"sr-only\">Loading...</span></div></button></div>")],2)])}
-var CardFormComponentvue_type_template_id_28e054ab_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/CardFormComponent.vue?vue&type=template&id=67c63aa0&
+var CardFormComponentvue_type_template_id_67c63aa0_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<form id=\"formVisitor\">","</form>",[_vm._ssrNode("<div class=\"form-group mt-2\">","</div>",[_vm._ssrNode("<label for=\"state\" class=\"text-black text-form\">Departamento*</label> "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.state),expression:"state"}],staticClass:"form-control",attrs:{"name":"state","id":"state"},on:{"change":[function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.state=$event.target.multiple ? $$selectedVal : $$selectedVal[0]},_vm.SelectSite]}},[_c('option',{attrs:{"selected":""}},[_vm._v("Selecciona departamento")]),_vm._v(" "),_vm._l((_vm.states),function(site){return _c('option',{key:site,domProps:{"textContent":_vm._s(site)}})})],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"form-group\">","</div>",[_vm._ssrNode("<label for=\"city\" class=\"text-black text-form\">Cuidad*</label> "),_c('select',{directives:[{name:"model",rawName:"v-model",value:(_vm.city),expression:"city"}],staticClass:"form-control",attrs:{"disabled":_vm.status,"name":"city","id":"city"},on:{"change":function($event){var $$selectedVal = Array.prototype.filter.call($event.target.options,function(o){return o.selected}).map(function(o){var val = "_value" in o ? o._value : o.value;return val}); _vm.city=$event.target.multiple ? $$selectedVal : $$selectedVal[0]}}},_vm._l((_vm.citys),function(city,index){return _c('option',{key:index,domProps:{"textContent":_vm._s(city)}})}),0)],2),_vm._ssrNode(" <div class=\"form-group\"><label for=\"name\" class=\"text-black text-form\">Nombre*</label> <input type=\"text\" name=\"name\" id=\"name\""+(_vm._ssrAttr("value",(_vm.name)))+" class=\"form-control\"></div> <div class=\"form-group\"><label for=\"email\" class=\"text-black text-form\">Correo*</label> <input type=\"email\" id=\"email\" name=\"email\""+(_vm._ssrAttr("value",(_vm.email)))+" class=\"form-control\"></div> <div class=\"form-group d-flex justify-content-center\"><button"+(_vm._ssrAttr("disabled",!_vm.res))+" type=\"submit\" class=\"btn rounded-pill text-white mt-3 w-50\" style=\"background: #e03b65; font-weight: bold; height: 50px\"><span"+(_vm._ssrStyle(null,null, { display: (_vm.res) ? '' : 'none' }))+">ENVIAR</span> <div role=\"status\" class=\"spinner-border text-light\""+(_vm._ssrStyle(null,null, { display: (!_vm.res) ? '' : 'none' }))+"><span class=\"sr-only\">Loading...</span></div></button></div>")],2)])}
+var CardFormComponentvue_type_template_id_67c63aa0_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/CardFormComponent.vue?vue&type=template&id=28e054ab&
+// CONCATENATED MODULE: ./components/CardFormComponent.vue?vue&type=template&id=67c63aa0&
 
 // CONCATENATED MODULE: ./assets/apis.js
 /* harmony default export */ var apis = ({
-  baseURL: "http://localhost:5000/",
+  baseURL: "http://174.138.40.79:5000/",
   URL: {
-    URL_COLOMBIA: "https://sigma-studios.s3-us-west-2.amazonaws.com/test/colombia.json",
+    URL_COLOMBIA: "https://cors-anywhere.herokuapp.com/https://sigma-studios.s3-us-west-2.amazonaws.com/test/colombia.json",
     URL_CONTACT: "api/contact"
   }
 });
@@ -144,14 +144,10 @@ var external_axios_default = /*#__PURE__*/__webpack_require__.n(external_axios_)
   },
 
   async created() {
-    external_axios_default.a.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
-    external_axios_default.a.defaults.headers.common['Access-Control-Allow-Methods'] = '*';
-    external_axios_default.a.defaults.headers.common['Access-Control-Allow-Headers'] = 'access-control-allow-headers,access-control-allow-methods,access-control-allow-origin,authorization';
     console.log("antes de montar");
 
     try {
-      const proxyurl = "https://cors-anywhere.herokuapp.com/";
-      const response = await external_axios_default.a.get(`${proxyurl}${apis.URL.URL_COLOMBIA}`);
+      const response = await external_axios_default.a.get(apis.URL.URL_COLOMBIA);
       this.respStates = response.data;
       Object.keys(response.data).map(item => this.states.push(item));
     } catch (error) {
@@ -214,12 +210,12 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   components_CardFormComponentvue_type_script_lang_js_,
-  CardFormComponentvue_type_template_id_28e054ab_render,
-  CardFormComponentvue_type_template_id_28e054ab_staticRenderFns,
+  CardFormComponentvue_type_template_id_67c63aa0_render,
+  CardFormComponentvue_type_template_id_67c63aa0_staticRenderFns,
   false,
   injectStyles,
   null,
-  "3ae9ff2f"
+  "2f4919f9"
   
 )
 
@@ -326,7 +322,7 @@ var pages_component = Object(componentNormalizer["a" /* default */])(
   false,
   pages_injectStyles,
   null,
-  "18a33bbe"
+  "76b34bb4"
   
 )
 
