@@ -1,6 +1,10 @@
 const webpack = require("webpack");
 
 export default {
+
+  server: {
+    port: process.env.PORT || 3000
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
