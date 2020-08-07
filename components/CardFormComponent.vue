@@ -63,10 +63,15 @@ export default {
     };
   },
   async created() {
+    
+    axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';  
+    axios.defaults.headers.common['Access-Control-Allow-Methods'] = '*' ;
+    axios.defaults.headers.common['Access-Control-Allow-Headers'] = 'access-control-allow-headers,access-control-allow-methods,access-control-allow-origin,authorization';  
     console.log("antes de montar");
     try {
-      const response = await axios.get(Apis.URL.URL_COLOMBIA);
-
+      const proxyurl = "https://cors-anywhere.herokuapp.com/";
+      const response = await axios.get(`${proxyurl}${Apis.URL.URL_COLOMBIA}`);
+      
       this.respStates = response.data;
       Object.keys(response.data).map((item) => this.states.push(item));
     } catch (error) {
@@ -97,6 +102,7 @@ export default {
         }, 3000);
         console.log(response);
       } catch (error) {
+        this.action('Error, intentalo mas tarde');
         console.log(error);
       }
     },

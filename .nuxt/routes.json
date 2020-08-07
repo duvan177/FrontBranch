@@ -2,7 +2,8 @@
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\proyectos\\\\FrontBranch\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\proyectos\\\\frontbranch\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7fe0f930"
   }
 ]
