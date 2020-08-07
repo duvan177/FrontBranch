@@ -6,16 +6,16 @@
     "LICENSES",
     "app.bc48079.js",
     "node_modules/commons.c1f49a3.js",
-    "pages/index.72b4171.js",
-    "runtime.3d87dab.js"
+    "pages/index.a574aa8.js",
+    "runtime.add4149.js"
   ],
   "initial": [
-    "runtime.3d87dab.js",
+    "runtime.add4149.js",
     "node_modules/commons.c1f49a3.js",
     "app.bc48079.js"
   ],
   "async": [
-    "pages/index.72b4171.js"
+    "pages/index.a574aa8.js"
   ],
   "modules": {
     "14853352": [
@@ -678,10 +678,10 @@
       "node_modules/commons.c1f49a3.js"
     ],
     "2a130dde": [
-      "pages/index.72b4171.js"
+      "pages/index.a574aa8.js"
     ],
     "6fca0322": [
-      "runtime.3d87dab.js"
+      "runtime.add4149.js"
     ]
   }
 }
